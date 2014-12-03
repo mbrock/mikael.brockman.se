@@ -1,9 +1,13 @@
-body{
-	 padding: 50px 0;
+html, body { height: 100%; }
+
+body {
 	 font-size: 13px;
 	 font-family: "PT Mono";
 	 font-style: normal;
 	 font-weight: 400;
+         color: whitesmoke;
+         background: url(../bg.jpg);
+         background-size: cover;
 }
 
 p.weight1{
@@ -81,12 +85,12 @@ p.map{
 
 p.heading{
 	 letter-spacing: 2px;
-	 font-size: 13px;
+	 font-size: 18px;
 	 margin-bottom: 35px;
-	 border-width: 0px 0px 1px 0px;
+	 border-width: 0px 0px 2px 0px;
 	 border-style: dotted;
 	 margin-top: 45px;
-	 color: rgba(0,0,0,1);
+	 color: yellow;
 }
 
 p.intro{
