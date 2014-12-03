@@ -1,6 +1,7 @@
 html, body { height: 100%; }
 
 body {
+         margin: 0;
 	 font-size: 13px;
 	 font-family: "PT Mono";
 	 font-style: normal;
@@ -9,6 +10,14 @@ body {
          background: url(../bg.jpg);
          background-size: cover;
          background-color: black;
+}
+
+#shade {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 p.weight1{
@@ -27,7 +36,7 @@ div.wrapper{
 	 padding-bottom: 20px;
 	 min-height: 100%;
 	 width: auto;
-	 max-width: none;
+	 max-width: 760px;
 }
 
 div{
@@ -38,9 +47,7 @@ div{
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	 box-sizing: border-box;
-	 padding: 0 2%;
-	 max-width: 760px;
-	 width: 760px;
+         padding: 0;
 }
 
 h1{
