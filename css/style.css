@@ -1,15 +1,16 @@
 html, body { height: 100%; }
 
 body {
-    margin: 0;
-    font-size: 13px;
-    font-family: "PT Mono";
+    background-color: black;
+    background-size: cover;
+    background: url(../bg.jpg);
+    color: whitesmoke;
+    font-family: "Lato";
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    color: whitesmoke;
-    background: url(../bg.jpg);
-    background-size: cover;
-    background-color: black;
+    line-height: 26px;
+    margin: 0;
 }
 
 #shade {
@@ -17,7 +18,7 @@ body {
     z-index: -1;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 div.wrapper {
@@ -31,14 +32,12 @@ div {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 48px;
     line-height: 73px;
     margin-bottom: 25px;
 }
 
 p {
-    font-size: 17px;
-    line-height: 26px;
     margin-bottom: 35px;
 }
 
@@ -53,12 +52,16 @@ p.pullquote {
 
 p.heading {
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 35px;
-    border-width: 0px 0px 2px 0px;
-    border-style: dotted;
     margin-top: 45px;
     color: yellow;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    border-bottom: 1px dotted yellow;
 }
 
 p.intro {
@@ -67,3 +70,28 @@ p.intro {
     line-height: 28px;
 }
 
+.cv-experience {
+    width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.cv-experience td {
+    vertical-align: top;
+    padding-bottom: 1em;
+}
+
+.cv-expertise {
+    width: 700px;
+}
+
+.cv-expertise li {
+    float: left;
+    display: inline;
+    width: 33.333%;
+}
+
+ul { padding: 0; }
+
+.contact { float: right; }
+.contact a { margin-left: 2em; }
